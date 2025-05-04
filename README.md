@@ -1,5 +1,17 @@
-English | [简体中文](README_cn.md)
+## 基本コマンド
+```
+python tools/demo.py image \
+  -f configs/damoyolo_tinynasL20_T.py \
+  --engine pretrained_models/damoyolo_tinynasL20_T_420.pth \
+  --path assets/input.jpg \
+  --conf 0.6 \
+  --save_result True \
+  --device cuda \
+  --infer_size 640 640
 
+```
+
+English | [简体中文](README_cn.md)
 
 <div align="center"><img src="assets/logo.png" width="1500">
 

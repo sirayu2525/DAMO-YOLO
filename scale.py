@@ -9,7 +9,7 @@ output_path = "demo/input_highres.png"  # 上書きしたい場合は input_path
 img = Image.open(input_path)
 
 # 倍率
-scale = 6
+scale = 2
 new_size = (img.width * scale, img.height * scale)
 
 # 高解像度にリサイズ（アンチエイリアスを効かせて滑らかに）
